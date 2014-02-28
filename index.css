@@ -1,11 +1,11 @@
 div#navyBlue{
 
 	padding: 0 5%;
-	background-color: rgb(5,0,156);
+	background-color: #000C7D;
 }
 
 #header{
-	background-color:rgb(163, 234, 255);
+	background-color:#34A8FF;
 	h1{
 		font-size: 36px;
 	}
@@ -16,7 +16,7 @@ div#navyBlue{
 }
 
 #mainContent{
-	background-color: rgb(173,252,233);
+	background-color: #C5E3E8;
 }
 
 h1{

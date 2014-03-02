@@ -1,60 +1,123 @@
 /* Ryan Haines 2014 Web Homepage */
 /*variables*/
+/* line 24, ../sass/index.scss */
 body {
   margin: 0;
-  font-family: avenir; }
-  body .navyBlue {
-    padding: 0 5%;
-    background-color: #0e5dab; }
-  body .header {
-    background-color: #acc1ff; }
-    body .header > * {
-      display: inline-block; }
-    body .header #title {
-      font-size: 46px;
-      margin: 10px; }
-    body .header .contactWrapper {
-      padding: 0 10px; }
-      body .header .contactWrapper a {
-        text-decoration: none; }
-      body .header .contactWrapper span {
-        position: relative;
-        bottom: 10px; }
-      body .header .contactWrapper img {
-        max-width: 42px;
-        max-height: 42px; }
-  body .mainContent {
-    background-color: #c7ffff; }
-  body h1 {
-    margin: 0; }
-  body .leftColumn {
-    display: inline-block;
-    margin: 10px;
-    vertical-align: top;
-    width: 35%; }
-    body .leftColumn #myFace {
-      max-width: 100%; }
-    body .leftColumn .socialLinks {
-      margin: 10px 0px 0 0;
-      padding: 0;
-      font-size: 0.1;
-      text-align: justify; }
-      body .leftColumn .socialLinks > div {
-        margin: 5px;
-        display: inline-block; }
-        body .leftColumn .socialLinks > div img {
-          max-width: 42px;
-          max-height: 42px; }
-    body .leftColumn .socialLinks:after {
-      content: ' ';
-      display: inline-block;
-      width: 100%;
-      height: 0; }
-  body .rightColumn {
-    margin: 10px;
-    display: inline-block;
-    width: 55%; }
-    body .rightColumn h1 {
-      font-size: 22px; }
-    body .rightColumn p {
-      line-height: 1.6em; }
+  font-family: avenir, sans-serif;
+}
+/* line 28, ../sass/index.scss */
+body .navyBlue {
+  padding: 0 5%;
+  background-color: #0e5dab;
+}
+/* line 33, ../sass/index.scss */
+body .header {
+  background-color: #acc1ff;
+}
+/* line 35, ../sass/index.scss */
+body .header > * {
+  display: inline-block;
+}
+/* line 38, ../sass/index.scss */
+body .header #title {
+  font-size: 46px;
+  margin: 10px;
+}
+/* line 47, ../sass/index.scss */
+body .mainContent {
+  background-color: #c7ffff;
+}
+/* line 51, ../sass/index.scss */
+body h1 {
+  margin: 0;
+}
+/* line 55, ../sass/index.scss */
+body .leftColumn {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+  width: 35%;
+}
+/* line 61, ../sass/index.scss */
+body .leftColumn #myFace {
+  max-width: 100%;
+  border-radius: 50%;
+}
+/* line 66, ../sass/index.scss */
+body .leftColumn .contactWrapper {
+  text-align: center;
+  margin: 10px 5px;
+}
+/* line 71, ../sass/index.scss */
+body .leftColumn .socialLinks {
+  margin: 10px 0px 0 0;
+  padding: 0;
+  font-size: 0.1;
+  text-align: justify;
+}
+/* line 76, ../sass/index.scss */
+body .leftColumn .socialLinks > div {
+  margin: 5px;
+  display: inline-block;
+}
+/* line 79, ../sass/index.scss */
+body .leftColumn .socialLinks > div img {
+  max-width: 42px;
+  max-height: 42px;
+}
+/* line 86, ../sass/index.scss */
+body .leftColumn .socialLinks:after {
+  content: ' ';
+  display: inline-block;
+  width: 100%;
+  height: 0;
+}
+/* line 95, ../sass/index.scss */
+body .rightColumn {
+  margin: 10px;
+  display: inline-block;
+  width: 55%;
+}
+/* line 99, ../sass/index.scss */
+body .rightColumn h1 {
+  font-size: 22px;
+}
+/* line 102, ../sass/index.scss */
+body .rightColumn p {
+  line-height: 1.6em;
+}
+/* line 105, ../sass/index.scss */
+body .rightColumn .contactButton {
+  float: right;
+}
+/* line 110, ../sass/index.scss */
+body .contactButton {
+  background-color: #fcfff4;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFCFFF4', endColorstr='#FFB3BEAD');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfff4), color-stop(40%, #dfe5d7), color-stop(100%, #b3bead));
+  background-image: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background-image: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background-image: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background-image: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  border: 1px solid #767676;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 0px 5px;
+  margin: 5px;
+}
+/* line 112, ../sass/index.scss */
+body .contactButton a {
+  text-decoration: none;
+}
+/* line 115, ../sass/index.scss */
+body .contactButton span {
+  position: relative;
+  bottom: 10px;
+  color: #000000;
+}
+/* line 120, ../sass/index.scss */
+body .contactButton img {
+  max-width: 42px;
+  max-height: 42px;
+}

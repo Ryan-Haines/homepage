@@ -22,7 +22,6 @@
 // Box shadow with custom settings
 @mixin box-shadow-custom($color, $offset, $opacity, $scatter) {
   @include box-shadow($color $offset  $opacity $scatter);
-  overflow: scroll;
 }
  
 @mixin box-shadow-custom-multiple {

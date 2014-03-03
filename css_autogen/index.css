@@ -1,62 +1,60 @@
 /* Ryan Haines 2014 Web Homepage */
 /*variables*/
-/* line 41, ../sass/index.scss */
+/* line 40, ../sass/index.scss */
 body {
   margin: 0;
   font-family: avenir, sans-serif;
 }
-/* line 45, ../sass/index.scss */
+/* line 44, ../sass/index.scss */
 body .navyBlue {
   padding: 0 5%;
   background-color: #0e5dab;
 }
-/* line 50, ../sass/index.scss */
+/* line 49, ../sass/index.scss */
 body .header {
   -webkit-box-shadow: black 0 2px 10px;
   -moz-box-shadow: black 0 2px 10px;
   box-shadow: black 0 2px 10px;
-  overflow: scroll;
   background-color: #acc1ff;
 }
-/* line 53, ../sass/index.scss */
+/* line 52, ../sass/index.scss */
 body .header > * {
   display: inline-block;
 }
-/* line 56, ../sass/index.scss */
+/* line 55, ../sass/index.scss */
 body .header #title {
   font-size: 46px;
   margin: 10px;
 }
-/* line 65, ../sass/index.scss */
+/* line 64, ../sass/index.scss */
 body .mainContent {
   background-color: white;
   -webkit-box-shadow: black 0 5px 10px;
   -moz-box-shadow: black 0 5px 10px;
   box-shadow: black 0 5px 10px;
-  overflow: scroll;
 }
-/* line 70, ../sass/index.scss */
+/* line 69, ../sass/index.scss */
 body h1 {
   margin: 0;
 }
-/* line 74, ../sass/index.scss */
+/* line 73, ../sass/index.scss */
 body .leftColumn {
   display: inline-block;
   margin: 10px;
   vertical-align: top;
   width: 35%;
 }
-/* line 80, ../sass/index.scss */
+/* line 79, ../sass/index.scss */
 body .leftColumn #myFace {
   max-width: 100%;
   border-radius: 50%;
 }
-/* line 85, ../sass/index.scss */
+/* line 84, ../sass/index.scss */
 body .leftColumn .contactWrapper {
   text-align: center;
   margin: 10px 5px;
 }
-/* line 90, ../sass/index.scss */
+/* line 89, ../sass/index.scss */
 body .leftColumn .socialLinks {
   margin: 10px 0px 0 0;
   padding: 0;
@@ -66,42 +64,42 @@ body .leftColumn .socialLinks {
   border-radius: 3px;
   background-color: #FAFAFA;
 }
-/* line 98, ../sass/index.scss */
+/* line 97, ../sass/index.scss */
 body .leftColumn .socialLinks > div {
   margin: 5px;
   display: inline-block;
 }
-/* line 101, ../sass/index.scss */
+/* line 100, ../sass/index.scss */
 body .leftColumn .socialLinks > div img {
   max-width: 42px;
   max-height: 42px;
 }
-/* line 108, ../sass/index.scss */
+/* line 107, ../sass/index.scss */
 body .leftColumn .socialLinks:after {
   content: ' ';
   display: inline-block;
   width: 100%;
   height: 0;
 }
-/* line 117, ../sass/index.scss */
+/* line 116, ../sass/index.scss */
 body .rightColumn {
   margin: 10px;
   display: inline-block;
   width: 55%;
 }
-/* line 121, ../sass/index.scss */
+/* line 120, ../sass/index.scss */
 body .rightColumn h1 {
   font-size: 22px;
 }
-/* line 124, ../sass/index.scss */
+/* line 123, ../sass/index.scss */
 body .rightColumn p {
   line-height: 1.6em;
 }
-/* line 127, ../sass/index.scss */
+/* line 126, ../sass/index.scss */
 body .rightColumn .contactButton {
   float: right;
 }
-/* line 132, ../sass/index.scss */
+/* line 131, ../sass/index.scss */
 body .contactButton {
   background-color: #fcfff4;
   *zoom: 1;
@@ -117,18 +115,18 @@ body .contactButton {
   padding: 0px 5px;
   margin: 5px;
 }
-/* line 134, ../sass/index.scss */
+/* line 133, ../sass/index.scss */
 body .contactButton a {
   text-decoration: none;
 }
-/* line 137, ../sass/index.scss */
+/* line 136, ../sass/index.scss */
 body .contactButton span {
   position: relative;
   vertical-align: top;
   top: 10px;
   color: #000000;
 }
-/* line 143, ../sass/index.scss */
+/* line 142, ../sass/index.scss */
 body .contactButton img {
   max-width: 42px;
   max-height: 42px;

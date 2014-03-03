@@ -51,3 +51,26 @@
 2014-03-02 14:18:38 identical css_autogen/index.css 
 2014-03-02 17:36:45 overwrite css_autogen/index.css 
 2014-03-02 17:38:29 overwrite css_autogen/index.css 
+2014-03-03 13:58:49     error sass/index.scss (Line 25: Invalid CSS after "body": expected selector or at-rule, was "{")
+2014-03-03 13:58:49 overwrite css_autogen/index.css 
+2014-03-03 14:02:59     error sass/index.scss (Line 39: Invalid CSS after "body": expected selector or at-rule, was "{")
+2014-03-03 14:02:59 overwrite css_autogen/index.css 
+2014-03-03 14:10:19     error sass/index.scss (Line 39: Invalid CSS after "body": expected selector or at-rule, was "{")
+2014-03-03 14:10:19 identical css_autogen/index.css 
+2014-03-03 14:13:02 overwrite css_autogen/index.css 
+2014-03-03 14:14:17 overwrite css_autogen/index.css 
+2014-03-03 14:14:29 overwrite css_autogen/index.css 
+2014-03-03 14:14:44 overwrite css_autogen/index.css 
+2014-03-03 14:17:03     error sass/index.scss (Line 51: Mixin box-shadow-custom is missing argument $offset.)
+2014-03-03 14:17:03 overwrite css_autogen/index.css 
+2014-03-03 14:19:00     error sass/index.scss (Line 51: Mixin box-shadow-custom is missing argument $offset.)
+2014-03-03 14:19:00 identical css_autogen/index.css 
+2014-03-03 14:19:25     error sass/index.scss (Line 51: Mixin box-shadow-custom is missing argument $offset.)
+2014-03-03 14:19:25 identical css_autogen/index.css 
+2014-03-03 14:20:26     error sass/index.scss (Line 51: Mixin box-shadow-custom is missing argument $offset.)
+2014-03-03 14:20:26 identical css_autogen/index.css 
+2014-03-03 14:20:37 overwrite css_autogen/index.css 
+2014-03-03 14:20:49 overwrite css_autogen/index.css 
+2014-03-03 14:34:27 overwrite css_autogen/index.css 
+2014-03-03 14:35:56 overwrite css_autogen/index.css 
+2014-03-03 14:44:24 overwrite css_autogen/index.css 

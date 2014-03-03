@@ -113,11 +113,13 @@ body .contactButton a {
 /* line 115, ../sass/index.scss */
 body .contactButton span {
   position: relative;
-  bottom: 10px;
+  vertical-align: top;
+  top: 10px;
   color: #000000;
 }
-/* line 120, ../sass/index.scss */
+/* line 121, ../sass/index.scss */
 body .contactButton img {
   max-width: 42px;
   max-height: 42px;
+  vertical-align: middle;
 }

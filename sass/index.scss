@@ -114,12 +114,14 @@ body{
 		}
 		span{
 			position:relative;
-			bottom:10px;
+			vertical-align: top;
+			top:10px;
 			color: #000000;
 		}
 		img{
 			max-width: 42px;
 			max-height: 42px;
+			vertical-align: middle;
 		}
 	}
 

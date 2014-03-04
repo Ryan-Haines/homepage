@@ -85,7 +85,7 @@ body{
 		#myFace{
 			max-width: 100%;
 			border-radius:50%;
-			border: 4px solid;
+			border: 2px solid #AAA;
 		}
 
 		.contactWrapper{
@@ -98,9 +98,6 @@ body{
 			padding:0;
 			font-size: 0.1;
 			text-align: justify;
-			border: 1px solid #AAA;
-			border-radius: 3px;
-			background-color: #FAFAFA;
 			> div{
 				margin:5px;
 				display:inline-block;

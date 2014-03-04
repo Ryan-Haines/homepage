@@ -51,7 +51,7 @@ body .leftColumn {
 body .leftColumn #myFace {
   max-width: 100%;
   border-radius: 50%;
-  border: 4px solid;
+  border: 2px solid #AAA;
 }
 /* line 91, ../sass/index.scss */
 body .leftColumn .contactWrapper {
@@ -64,46 +64,43 @@ body .leftColumn .socialLinks {
   padding: 0;
   font-size: 0.1;
   text-align: justify;
-  border: 1px solid #AAA;
-  border-radius: 3px;
-  background-color: #FAFAFA;
 }
-/* line 104, ../sass/index.scss */
+/* line 101, ../sass/index.scss */
 body .leftColumn .socialLinks > div {
   margin: 5px;
   display: inline-block;
 }
-/* line 107, ../sass/index.scss */
+/* line 104, ../sass/index.scss */
 body .leftColumn .socialLinks > div img {
   max-width: 42px;
   max-height: 42px;
 }
-/* line 114, ../sass/index.scss */
+/* line 111, ../sass/index.scss */
 body .leftColumn .socialLinks:after {
   content: ' ';
   display: inline-block;
   width: 100%;
   height: 0;
 }
-/* line 123, ../sass/index.scss */
+/* line 120, ../sass/index.scss */
 body .rightColumn {
   margin: 10px;
   display: inline-block;
   width: 55%;
 }
-/* line 127, ../sass/index.scss */
+/* line 124, ../sass/index.scss */
 body .rightColumn h1 {
   font-size: 22px;
 }
-/* line 130, ../sass/index.scss */
+/* line 127, ../sass/index.scss */
 body .rightColumn p {
   line-height: 1.6em;
 }
-/* line 133, ../sass/index.scss */
+/* line 130, ../sass/index.scss */
 body .rightColumn .contactButton {
   float: right;
 }
-/* line 138, ../sass/index.scss */
+/* line 135, ../sass/index.scss */
 body .contactButton {
   background-color: #fcfff4;
   *zoom: 1;
@@ -119,30 +116,30 @@ body .contactButton {
   padding: 0px 5px;
   margin: 5px;
 }
-/* line 140, ../sass/index.scss */
+/* line 137, ../sass/index.scss */
 body .contactButton a {
   text-decoration: none;
 }
-/* line 143, ../sass/index.scss */
+/* line 140, ../sass/index.scss */
 body .contactButton span {
   position: relative;
   vertical-align: top;
   top: 10px;
   color: #000000;
 }
-/* line 149, ../sass/index.scss */
+/* line 146, ../sass/index.scss */
 body .contactButton img {
   max-width: 42px;
   max-height: 42px;
   vertical-align: middle;
 }
-/* line 156, ../sass/index.scss */
+/* line 153, ../sass/index.scss */
 body .footer {
   background-color: #FFFFFF;
   text-align: center;
   font-size: 10px;
 }
-/* line 160, ../sass/index.scss */
+/* line 157, ../sass/index.scss */
 body .footer p {
   margin: 0px;
   padding-bottom: 10px;

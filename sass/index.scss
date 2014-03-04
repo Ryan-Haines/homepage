@@ -131,13 +131,6 @@ body{
 		}
 	}
 
-	@media (max-width:450px){
-		.rightColumn, .leftColumn{
-			margin:2%;
-			width:95%;
-		}
-	}
-
 	.contactButton{
 		@include grayButton;
 		a{
@@ -161,6 +154,17 @@ body{
 		p{
 			margin: 0px;
 			padding-bottom:10px;
+		}
+	}
+
+	//mobile-specific stuff goes here
+	@media (max-width:610px){
+		.rightColumn, .leftColumn{
+			margin:0 2%;
+			width:95%;
+		}
+		.leftColumn{
+			margin-top:2%;
 		}
 	}
 

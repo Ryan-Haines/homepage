@@ -117,3 +117,20 @@
 2014-03-04 15:07:18 overwrite css_autogen/index.css 
 2014-03-04 15:07:27 overwrite css_autogen/index.css 
 2014-03-04 15:08:18 identical css_autogen/index.css 
+2014-03-04 15:10:35 overwrite css_autogen/index.css 
+2014-03-04 15:10:46 overwrite css_autogen/index.css 
+2014-03-04 15:14:49 overwrite css_autogen/index.css 
+2014-03-04 15:16:02 overwrite css_autogen/index.css 
+2014-03-04 15:20:11 overwrite css_autogen/index.css 
+2014-03-04 15:20:58     error sass/index.scss (Line 161: Invalid CSS after "...x-width:767px),": expected media query (e.g. print, screen, print and screen), was "{")
+2014-03-04 15:20:59 overwrite css_autogen/index.css 
+2014-03-04 15:22:00     error sass/index.scss (Line 161: Invalid CSS after "...x-width:530px),": expected media query (e.g. print, screen, print and screen), was "{")
+2014-03-04 15:22:00 overwrite css_autogen/index.css 
+2014-03-04 15:22:42     error sass/index.scss (Line 161: Invalid CSS after "...x-width:610px),": expected media query (e.g. print, screen, print and screen), was "{")
+2014-03-04 15:22:43 overwrite css_autogen/index.css 
+2014-03-04 15:23:02     error sass/index.scss (Line 161: Invalid CSS after "...x-width:610px),": expected media query (e.g. print, screen, print and screen), was "{")
+2014-03-04 15:23:02 identical css_autogen/index.css 
+2014-03-04 15:25:17 overwrite css_autogen/index.css 
+2014-03-04 15:27:06 overwrite css_autogen/index.css 
+2014-03-04 15:28:17 overwrite css_autogen/index.css 
+2014-03-04 15:30:43 identical css_autogen/index.css 

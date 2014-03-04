@@ -101,14 +101,7 @@ body .rightColumn p {
 body .rightColumn .contactButton {
   float: right;
 }
-@media (max-width: 450px) {
-  /* line 135, ../sass/index.scss */
-  body .rightColumn, body .leftColumn {
-    margin: 2%;
-    width: 95%;
-  }
-}
-/* line 141, ../sass/index.scss */
+/* line 134, ../sass/index.scss */
 body .contactButton {
   background-color: #fcfff4;
   *zoom: 1;
@@ -124,29 +117,40 @@ body .contactButton {
   padding: 0px 5px;
   margin: 5px;
 }
-/* line 143, ../sass/index.scss */
+/* line 136, ../sass/index.scss */
 body .contactButton a {
   text-decoration: none;
 }
-/* line 146, ../sass/index.scss */
+/* line 139, ../sass/index.scss */
 body .contactButton span {
   color: #000000;
 }
-/* line 149, ../sass/index.scss */
+/* line 142, ../sass/index.scss */
 body .contactButton img {
   margin: 2px;
   max-width: 42px;
   max-height: 42px;
   vertical-align: middle;
 }
-/* line 157, ../sass/index.scss */
+/* line 150, ../sass/index.scss */
 body .footer {
   background-color: #FFFFFF;
   text-align: center;
   font-size: 10px;
 }
-/* line 161, ../sass/index.scss */
+/* line 154, ../sass/index.scss */
 body .footer p {
   margin: 0px;
   padding-bottom: 10px;
+}
+@media (max-width: 610px) {
+  /* line 162, ../sass/index.scss */
+  body .rightColumn, body .leftColumn {
+    margin: 0 2%;
+    width: 95%;
+  }
+  /* line 166, ../sass/index.scss */
+  body .leftColumn {
+    margin-top: 2%;
+  }
 }

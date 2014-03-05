@@ -1,24 +1,24 @@
 /* Ryan Haines 2014 Web Homepage */
 /*variables*/
-/* line 40, ../sass/index.scss */
+/* line 41, ../sass/index.scss */
 body {
   margin: 0;
   font-family: avenir, sans-serif;
 }
-/* line 44, ../sass/index.scss */
+/* line 45, ../sass/index.scss */
 body .navyBlue {
   padding: 0 5%;
-  background-color: #0e5dab;
+  background-color: #2112a3;
 }
-/* line 49, ../sass/index.scss */
+/* line 50, ../sass/index.scss */
 body .pageContent {
   border-left: 2px solid black;
   border-right: 2px solid black;
 }
-/* line 54, ../sass/index.scss */
+/* line 55, ../sass/index.scss */
 body .header {
   border-bottom: 2px solid black;
-  background-color: #acc1ff;
+  background-color: #dde5ff;
 }
 /* line 58, ../sass/index.scss */
 body .header > * {
@@ -26,39 +26,39 @@ body .header > * {
 }
 /* line 61, ../sass/index.scss */
 body .header #title {
-  font-size: 46px;
+  font-size: 44px;
   margin: 10px;
 }
-/* line 70, ../sass/index.scss */
+/* line 67, ../sass/index.scss */
 body .mainContent {
   background-color: white;
   -webkit-box-shadow: black 0 5px 10px;
   -moz-box-shadow: black 0 5px 10px;
   box-shadow: black 0 5px 10px;
 }
-/* line 75, ../sass/index.scss */
+/* line 72, ../sass/index.scss */
 body h1 {
   margin: 0;
 }
-/* line 79, ../sass/index.scss */
+/* line 76, ../sass/index.scss */
 body .leftColumn {
   display: inline-block;
   margin: 1%;
   vertical-align: top;
   width: 35%;
 }
-/* line 85, ../sass/index.scss */
+/* line 82, ../sass/index.scss */
 body .leftColumn #myFace {
   max-width: 100%;
   border-radius: 50%;
-  border: 2px solid #AAA;
+  border: 2px solid #767676;
 }
-/* line 91, ../sass/index.scss */
+/* line 88, ../sass/index.scss */
 body .leftColumn .contactWrapper {
   text-align: center;
   margin: 10px 5px;
 }
-/* line 96, ../sass/index.scss */
+/* line 93, ../sass/index.scss */
 body .leftColumn .socialLinks {
   margin: 10px 0px 0 0;
   padding: 0;
@@ -66,90 +66,90 @@ body .leftColumn .socialLinks {
   text-align: center;
   list-style: none;
 }
-/* line 102, ../sass/index.scss */
+/* line 99, ../sass/index.scss */
 body .leftColumn .socialLinks > li {
   padding: 2px 5px;
   display: inline;
 }
-/* line 105, ../sass/index.scss */
+/* line 102, ../sass/index.scss */
 body .leftColumn .socialLinks > li a, body .leftColumn .socialLinks > li img {
   text-decoration: none;
   outline: none;
   border: 0px none transparent;
 }
-/* line 110, ../sass/index.scss */
+/* line 107, ../sass/index.scss */
 body .leftColumn .socialLinks > li img {
   margin: 3px;
   max-width: 42px;
   max-height: 42px;
 }
-/* line 119, ../sass/index.scss */
+/* line 116, ../sass/index.scss */
 body .rightColumn {
   margin: 1%;
   display: inline-block;
   width: 60%;
 }
-/* line 123, ../sass/index.scss */
+/* line 120, ../sass/index.scss */
 body .rightColumn h1 {
   font-size: 22px;
 }
-/* line 126, ../sass/index.scss */
+/* line 123, ../sass/index.scss */
 body .rightColumn p {
   line-height: 1.6em;
 }
-/* line 129, ../sass/index.scss */
+/* line 126, ../sass/index.scss */
 body .rightColumn .contactButton {
   float: right;
 }
-/* line 134, ../sass/index.scss */
+/* line 131, ../sass/index.scss */
 body .contactButton {
-  background-color: #fcfff4;
+  background-color: #dae2e8;
   *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFCFFF4', endColorstr='#FFB3BEAD');
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfff4), color-stop(40%, #dfe5d7), color-stop(100%, #b3bead));
-  background-image: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-  background-image: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-  background-image: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-  background-image: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDAE2E8', endColorstr='#FFB3BEAD');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dae2e8), color-stop(40%, #dae2e8), color-stop(100%, #b3bead));
+  background-image: -webkit-linear-gradient(top, #dae2e8 0%, #dae2e8 40%, #b3bead 100%);
+  background-image: -moz-linear-gradient(top, #dae2e8 0%, #dae2e8 40%, #b3bead 100%);
+  background-image: -o-linear-gradient(top, #dae2e8 0%, #dae2e8 40%, #b3bead 100%);
+  background-image: linear-gradient(top, #dae2e8 0%, #dae2e8 40%, #b3bead 100%);
   border: 1px solid #767676;
   border-radius: 3px;
   display: inline-block;
   padding: 0px 5px;
   margin: 5px;
 }
-/* line 136, ../sass/index.scss */
+/* line 133, ../sass/index.scss */
 body .contactButton a {
   text-decoration: none;
 }
-/* line 139, ../sass/index.scss */
+/* line 136, ../sass/index.scss */
 body .contactButton span {
   color: #000000;
 }
-/* line 142, ../sass/index.scss */
+/* line 139, ../sass/index.scss */
 body .contactButton img {
   margin: 2px;
   max-width: 42px;
   max-height: 42px;
   vertical-align: middle;
 }
-/* line 150, ../sass/index.scss */
+/* line 147, ../sass/index.scss */
 body .footer {
   background-color: #FFFFFF;
   text-align: center;
   font-size: 10px;
 }
-/* line 154, ../sass/index.scss */
+/* line 151, ../sass/index.scss */
 body .footer p {
   margin: 0px;
   padding-bottom: 10px;
 }
 @media (max-width: 610px) {
-  /* line 162, ../sass/index.scss */
+  /* line 159, ../sass/index.scss */
   body .rightColumn, body .leftColumn {
     margin: 0 2%;
     width: 95%;
   }
-  /* line 166, ../sass/index.scss */
+  /* line 163, ../sass/index.scss */
   body .leftColumn {
     margin-top: 2%;
   }

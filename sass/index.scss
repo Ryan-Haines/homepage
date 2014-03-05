@@ -134,7 +134,7 @@ body{
 			text-decoration: none;
 		}
 		span{
-			color: #000000;
+			color: $black;
 		}
 		img{
 			margin:2px;
@@ -145,7 +145,7 @@ body{
 	}
 
 	.footer{
-		background-color: #FFFFFF;
+		background-color: $white;
 		text-align: center;
 		font-size: 10px;
 		p{

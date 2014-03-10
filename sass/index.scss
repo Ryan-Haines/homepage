@@ -156,9 +156,15 @@ body{
 
 	//mobile-specific stuff goes here
 	@media (max-width:610px){
+		#header{
+			text-align: center;
+		}
 		#rightColumn, #leftColumn{
 			margin:0 2%;
 			width:95%;
+			h1{
+				text-align: center;
+			}
 		}
 		#leftColumn{
 			margin-top:2%;

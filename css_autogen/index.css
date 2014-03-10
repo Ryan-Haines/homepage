@@ -145,11 +145,19 @@ body #footer p {
 }
 @media (max-width: 610px) {
   /* line 159, ../sass/index.scss */
+  body #header {
+    text-align: center;
+  }
+  /* line 162, ../sass/index.scss */
   body #rightColumn, body #leftColumn {
     margin: 0 2%;
     width: 95%;
   }
-  /* line 163, ../sass/index.scss */
+  /* line 165, ../sass/index.scss */
+  body #rightColumn h1, body #leftColumn h1 {
+    text-align: center;
+  }
+  /* line 169, ../sass/index.scss */
   body #leftColumn {
     margin-top: 2%;
   }

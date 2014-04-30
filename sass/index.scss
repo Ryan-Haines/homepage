@@ -72,9 +72,12 @@ body {
         }
         #sigil{
         	height: 100px;
-			vertical-align: top;
-			padding: 10px 0px 10px 10px;        
+            position: relative;
+            right: 80px;      
 		}
+        #sigilWrapper{
+            margin:10px;
+        }
     }
     #mainContent {
         background-color: $white;
@@ -160,7 +163,7 @@ body {
     //mobile-specific stuff goes here
     @media (max-width: 610px) {
         #header {
-            text-align: center;
+            //text-align: center;
         }
         #rightColumn, #leftColumn {
             margin: 0 2%;

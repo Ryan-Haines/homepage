@@ -175,6 +175,7 @@
 2014-04-29 22:54:45    remove .sass-cache/ 
 2014-04-29 22:55:07    create ie.css 
 2014-04-29 22:55:07    create ie.css 
+<<<<<<< HEAD
 2014-04-29 23:00:03    create ie.css 
 2014-04-29 23:00:08    remove .sass-cache/ 
 2014-04-29 23:00:08    create ie.css 
@@ -224,3 +225,14 @@
 2014-04-29 23:13:49    create index.css 
 2014-04-29 23:13:49    create print.css 
 2014-04-29 23:13:49    create screen.css 
+=======
+>>>>>>> bfd3a221fd0efd2c9633da7969fe395f12e69fca
+2014-04-29 23:21:31 identical ie.css 
+2014-04-29 23:21:40     error sass/index.scss (Line 69: Invalid CSS after "...    margin: 1%;": expected "}", was "<<<<<<< HEAD")
+2014-04-29 23:21:40 overwrite index.css 
+2014-04-29 23:21:40 identical print.css 
+2014-04-29 23:21:41 overwrite screen.css 
+2014-04-29 23:24:13 identical ie.css 
+2014-04-29 23:24:14 overwrite index.css 
+2014-04-29 23:24:14 identical print.css 
+2014-04-29 23:24:14 identical screen.css 

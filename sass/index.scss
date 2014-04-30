@@ -3,178 +3,172 @@
 @import "compass";
 
 /*variables*/
-$paleBlue : #DDE5FF;
-$darkBlue : #2112A3;
-$lightTeal: #DDFDFF;
-$offGray: #DAE2E8;
+$paleBlue: #dde5ff;
+$darkBlue: #2112a3;
+$lightTeal: #ddfdff;
+$offGray: #dae2e8;
 $darkGray: #767676;
-$lavender: #D8B6FF;
-$white: #FFF;
-$black: #000;
+$lavender: #d8b6ff;
+$white: white;
+$black: black;
 
-@mixin grayButton{
-	// needs latest Compass, add '@import "compass"' to your scss
-	background-color: $offGray; // Old browsers
-	@include filter-gradient($offGray, #b3bead, vertical); // IE6-9
-	@include background-image(linear-gradient(top, $offGray 0%, $offGray 40%,#b3bead 100%));
-	border:1px solid $darkGray;
-	border-radius: 3px;
-	display:inline-block;
-	padding:0px 5px;
-	margin: 5px;
+@mixin grayButton {
+    // needs latest Compass, add '@import "compass"' to your scss
+    background-color: $offGray;
+    // Old browsers
+    @include filter-gradient($offGray, #b3bead, vertical);
+    // IE6-9
+    @include background-image(linear-gradient(top, $offGray 0%, $offGray 40%, #b3bead 100%));
+    border: 1px solid $darkGray;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0px 5px;
+    margin: 5px;
 }
 
 // Default single box shadow
 @mixin box-shadow-default {
-  @include single-box-shadow;
+    @include single-box-shadow;
 }
- 
+
 // Box shadow with custom settings
 @mixin box-shadow-custom($color, $offset, $opacity, $scatter) {
-  @include box-shadow($color $offset  $opacity $scatter);
+    @include box-shadow($color $offset $opacity $scatter);
 }
- 
+
 @mixin box-shadow-custom-multiple {
-  @include box-shadow(rgba(blue, 0.4) 0 0 25px, rgba(green, 0.2) 0 0 3px 1px inset);
+    @include box-shadow(rgba(blue, 0.4) 0 0 25px, rgba(green, 0.2) 0 0 3px 1px inset);
 }
 
-.pslk{
-	text-decoration:inherit;
-	color:inherit;
-	cursor: default;
+.pslk {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: default;
 }
 
-body{
-	margin: 0;
-	font-family:avenir, sans-serif;
-
-	.navyBlue{
-		padding: 0 5%;
-		background-color: $darkBlue;
-	}
-
-	#pageContent{
-		border-left:2px solid $black;
-		border-right:2px solid $black;
-	}
-
-	#header{
-		border-bottom:2px solid $black;
-		background-color: $paleBlue;
-		> *{
-			display:inline-block;
+body {
+    margin: 0;
+    font-family: avenir, sans-serif;
+    .navyBlue {
+        padding: 0 5%;
+        background-color: $darkBlue;
+    }
+    #pageContent {
+        border-left: 2px solid $black;
+        border-right: 2px solid $black;
+    }
+    #header {
+        border-bottom: 2px solid $black;
+        background-color: $paleBlue;
+        > * {
+            display: inline-block;
+        }
+        #name {
+            font-size: 44px;
+            margin: 1%;
+            display:none; //toying with just SVG
+        }
+        #sigil{
+        	height: 100px;
+			vertical-align: top;
+			padding: 10px 0px 10px 10px;        
 		}
-		#title{
-			font-size: 44px;
-			margin:1%;
-		}
-	}
-
-	#mainContent{
-		background-color: $white;
-		@include box-shadow-custom($black, 0, 5px, 10px);
-	}
-
-	h1{
-		margin: 0;
-	}
-
-	#leftColumn{
-		display:inline-block;
-		margin:1%;
-		vertical-align: top;
-		width:35%;
-		
-		#myFace{
-			max-width: 100%;
-			border-radius:50%;
-			border: 2px solid $darkGray;
-		}
-
-		.contactWrapper{
-			text-align:center;
-			margin: 10px 5px;
-		}
-
-		#socialLinks{
-			margin: 10px 0px 0 0;
-			padding:0;
-			font-size: 0.1;
-			text-align: center;
-			list-style: none;
-			> li{
-				padding:2px 5px;
-				display:inline;
-				a,img{
-					text-decoration: none;
-    				outline: none;
-    				border: 0px none transparent;
-				}
-				img{
-					margin:3px;
-					max-width:42px;
-					max-height: 42px;
-				}
-			}	
-		}
-	}
-
-	#rightColumn{
-		margin:1%;
-		display:inline-block;
-		width:60%;
-		h1{
-			font-size: 22px;
-		}	
-		p{
-			line-height: 1.6em;
-		}
-		.contactButton{
-			float: right;
-		}
-	}
-
-	.contactButton{
-		@include grayButton;
-		a{
-			text-decoration: none;
-		}
-		span{
-			color: $black;
-		}
-		img{
-			margin:2px;
-			max-width: 42px;
-			max-height: 42px;
-			vertical-align: middle;
-		}
-	}
-
-	#footer{
-		background-color: $white;
-		text-align: center;
-		font-size: 10px;
-		p{
-			margin: 0px;
-			padding-bottom:10px;
-		}
-	}
-
-	//mobile-specific stuff goes here
-	@media (max-width:610px){
-		#header{
-			text-align: center;
-		}
-		#rightColumn, #leftColumn{
-			margin:0 2%;
-			width:95%;
-			h1{
-				text-align: center;
-			}
-		}
-		#leftColumn{
-			margin-top:2%;
-		}
-	}
-
+    }
+    #mainContent {
+        background-color: $white;
+        @include box-shadow-custom($black, 0, 5px, 10px);
+    }
+    h1 {
+        margin: 0;
+    }
+    #leftColumn {
+        display: inline-block;
+        margin: 1%;
+        vertical-align: top;
+        width: 35%;
+        #myFace {
+            max-width: 100%;
+            border-radius: 50%;
+            border: 2px solid $darkGray;
+        }
+        .contactWrapper {
+            text-align: center;
+            margin: 10px 5px;
+        }
+        #socialLinks {
+            margin: 10px 0px 0 0;
+            padding: 0;
+            font-size: 0.1;
+            text-align: center;
+            list-style: none;
+            > li {
+                padding: 2px 5px;
+                display: inline;
+                a,img {
+                    text-decoration: none;
+                    outline: none;
+                    border: 0px none transparent;
+                }
+                img {
+                    margin: 3px;
+                    max-width: 42px;
+                    max-height: 42px;
+                }
+            }
+        }
+    }
+    #rightColumn {
+        margin: 1%;
+        display: inline-block;
+        width: 60%;
+        h1 {
+            font-size: 22px;
+        }
+        p {
+            line-height: 1.6em;
+        }
+        .contactButton {
+            float: right;
+        }
+    }
+    .contactButton {
+        @include grayButton;
+        a {
+            text-decoration: none;
+        }
+        span {
+            color: $black;
+        }
+        img {
+            margin: 2px;
+            max-width: 42px;
+            max-height: 42px;
+            vertical-align: middle;
+        }
+    }
+    #footer {
+        background-color: $white;
+        text-align: center;
+        font-size: 10px;
+        p {
+            margin: 0px;
+            padding-bottom: 10px;
+        }
+    }
+    //mobile-specific stuff goes here
+    @media (max-width: 610px) {
+        #header {
+            text-align: center;
+        }
+        #rightColumn, #leftColumn {
+            margin: 0 2%;
+            width: 95%;
+            h1 {
+                text-align: center;
+            }
+        }
+        #leftColumn {
+            margin-top: 2%;
+        }
+    }
 }

@@ -78,6 +78,20 @@ body {
         #sigilWrapper{
             margin:10px;
         }
+        .sigilButton {
+        a {
+            text-decoration: none;
+        }
+        span {
+            color: $black;
+        }
+        img {
+            margin: 2px;
+            max-width: 42px;
+            max-height: 42px;
+            vertical-align: middle;
+        }
+    }
     }
     #mainContent {
         background-color: $white;

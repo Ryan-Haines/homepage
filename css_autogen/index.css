@@ -48,35 +48,50 @@ body #header #sigilWrapper {
   margin: 10px;
 }
 /* line 82, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+body #header .sigilButton a {
+  text-decoration: none;
+}
+/* line 85, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+body #header .sigilButton span {
+  color: black;
+}
+/* line 88, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+body #header .sigilButton img {
+  margin: 2px;
+  max-width: 42px;
+  max-height: 42px;
+  vertical-align: middle;
+}
+/* line 96, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #mainContent {
   background-color: white;
   -webkit-box-shadow: black 0 5px 10px;
   -moz-box-shadow: black 0 5px 10px;
   box-shadow: black 0 5px 10px;
 }
-/* line 86, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 100, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body h1 {
   margin: 0;
 }
-/* line 89, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 103, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #leftColumn {
   display: inline-block;
   margin: 1%;
   vertical-align: top;
   width: 35%;
 }
-/* line 94, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 108, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #leftColumn #myFace {
   max-width: 100%;
   border-radius: 50%;
   border: 2px solid #767676;
 }
-/* line 99, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 113, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #leftColumn .contactWrapper {
   text-align: center;
   margin: 10px 5px;
 }
-/* line 103, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 117, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #leftColumn #socialLinks {
   margin: 10px 0px 0 0;
   padding: 0;
@@ -84,42 +99,42 @@ body #leftColumn #socialLinks {
   text-align: center;
   list-style: none;
 }
-/* line 109, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 123, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #leftColumn #socialLinks > li {
   padding: 2px 5px;
   display: inline;
 }
-/* line 112, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 126, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #leftColumn #socialLinks > li a, body #leftColumn #socialLinks > li img {
   text-decoration: none;
   outline: none;
   border: 0px none transparent;
 }
-/* line 117, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 131, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #leftColumn #socialLinks > li img {
   margin: 3px;
   max-width: 42px;
   max-height: 42px;
 }
-/* line 125, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 139, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #rightColumn {
   margin: 1%;
   display: inline-block;
   width: 60%;
 }
-/* line 129, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 143, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #rightColumn h1 {
   font-size: 22px;
 }
-/* line 132, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 146, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #rightColumn p {
   line-height: 1.6em;
 }
-/* line 135, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 149, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #rightColumn .contactButton {
   float: right;
 }
-/* line 139, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 153, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body .contactButton {
   background-color: #dae2e8;
   *zoom: 1;
@@ -135,43 +150,43 @@ body .contactButton {
   padding: 0px 5px;
   margin: 5px;
 }
-/* line 141, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 155, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body .contactButton a {
   text-decoration: none;
 }
-/* line 144, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 158, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body .contactButton span {
   color: black;
 }
-/* line 147, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 161, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body .contactButton img {
   margin: 2px;
   max-width: 42px;
   max-height: 42px;
   vertical-align: middle;
 }
-/* line 154, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 168, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #footer {
   background-color: white;
   text-align: center;
   font-size: 10px;
 }
-/* line 158, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+/* line 172, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
 body #footer p {
   margin: 0px;
   padding-bottom: 10px;
 }
 @media (max-width: 610px) {
-  /* line 168, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+  /* line 182, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
   body #rightColumn, body #leftColumn {
     margin: 0 2%;
     width: 95%;
   }
-  /* line 171, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+  /* line 185, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
   body #rightColumn h1, body #leftColumn h1 {
     text-align: center;
   }
-  /* line 175, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
+  /* line 189, /Users/ourbenefactors/Workspace/homepage/sass/index.scss */
   body #leftColumn {
     margin-top: 2%;
   }

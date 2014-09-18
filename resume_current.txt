@@ -1,6 +1,6 @@
 Ryan Haines
 Mission District, San Francisco CA
-http://ryanhain.es
+https://ryanhain.es - visit and hit "contact me" to reveal email address
 
 Education
 Northeastern University College of Computer and Information Science 
@@ -40,7 +40,7 @@ Provided free hot meals to hungry visitors
 
 Mineways 3D Printing
 Reordered content and implemented mobile optimizations
-Nourished application’s success through social growth-hacking
+Nourished application success through social growth-hacking
 Advocated development of new printing materials for more diverse modeling options
 
 Interests and Activities

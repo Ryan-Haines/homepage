@@ -76,11 +76,13 @@
 									<img src="images/social_icons/soundcloudIcon.jpg">
 								</a>
 							</li>
+							<!--
 							<object type="application/x-shockwave-flash" name="GrindPlayer" data="GrindPlayer.swf" width="640" height="480" id="GrindPlayer" style="visibility: visible;">
 							<param name="allowFullScreen" value="true">
 							<param name="wmode" value="direct">
 							<param name="flashvars" value="src=https://ryanhain.es/stream.m3u8&amp;autoPlay=false&amp;verbose=true&amp;controlBarAutoHide=true&amp;controlBarPosition=bottom&amp;poster=images/poster.png&amp;javascriptCallbackFunction=jsbridge&amp;plugin_hls=../../bin/release/flashlsOSMF.swf&amp;hls_minbufferlength=-1&amp;hls_maxbufferlength=30&amp;hls_lowbufferlength=3&amp;hls_seekmode=SEGMENT&amp;hls_startfromlevel=-1&amp;hls_seekfromlevel=-1&amp;hls_live_flushurlcache=false&amp;hls_info=true&amp;hls_debug=false&amp;hls_debug2=false&amp;hls_warn=true&amp;hls_error=true&amp;hls_fragmentloadmaxretry=-1&amp;hls_manifestloadmaxretry=-1&amp;hls_capleveltostage=false&amp;hls_maxlevelcappingmode=downscale">
 							</object>
+							-->
 						</ul>
 						<div class="contactWrapper">
 							<div class="contactButton" href="http://www.google.com/recaptcha/mailhide/d?k=01Bs-YrC3oMNWpFzCZ1yTeZQ==&amp;c=RbK8nvb5ebUUf1ouOPrccsJFRpFh-rbmjcpQLdcnuiU=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501Bs-YrC3oMNWpFzCZ1yTeZQ\75\75\46c\75RbK8nvb5ebUUf1ouOPrccsJFRpFh-rbmjcpQLdcnuiU\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">
@@ -117,7 +119,10 @@
 				</div>
 
 				<div id="footer">
-					<p>Ryan Haines &copy; 2014</p>
+					<p id="copyright">Ryan Haines &copy; </p>
+					<script>var d= new Date(); 
+							document.getElementById("copyright").innerHTML += d.getFullYear();
+					</script>
 				</div>
 			</div>
 		</div>

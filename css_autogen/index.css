@@ -51,7 +51,7 @@ body #header .sigilButton img {
   vertical-align: middle;
 }
 body #mainContent {
-  background-color: white;
+  background-color: #d5ddeb;
   -webkit-box-shadow: black 0 5px 10px;
   -moz-box-shadow: black 0 5px 10px;
   box-shadow: black 0 5px 10px;
@@ -95,6 +95,13 @@ body #leftColumn #socialLinks > li img {
   max-width: 42px;
   max-height: 42px;
 }
+body #leftColumn #socialLinks > #soundcloud img, body #leftColumn #socialLinks #linkedin img {
+  border-radius: 6px;
+}
+body #leftColumn #socialLinks object {
+  width: auto;
+  height: auto;
+}
 body #rightColumn {
   margin: 1%;
   display: inline-block;
@@ -137,13 +144,13 @@ body .contactButton img {
   vertical-align: middle;
 }
 body #footer {
-  background-color: white;
+  background-color: #d5ddeb;
   text-align: center;
   font-size: 10px;
 }
 body #footer p {
   margin: 0px;
-  padding-bottom: 10px;
+  padding: 0px 5px;
 }
 @media (max-width: 610px) {
   body #rightColumn, body #leftColumn {

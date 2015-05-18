@@ -5,6 +5,7 @@
 /*variables*/
 $paleBlue: #dde5ff;
 $darkBlue: #2112a3;
+$grayblue: #D5DDEB;
 $lightTeal: #ddfdff;
 $offGray: #dae2e8;
 $darkGray: #767676;
@@ -94,7 +95,7 @@ body {
     }
     }
     #mainContent {
-        background-color: $white;
+        background-color: $grayblue;
         @include box-shadow-custom($black, 0, 5px, 10px);
     }
     h1 {
@@ -134,6 +135,11 @@ body {
                     max-height: 42px;
                 }
             }
+            > #soundcloud, #linkedin{
+                img{
+                    border-radius:6px;
+                }
+            }
             object{
                 width:auto;
                 height:auto;
@@ -170,12 +176,12 @@ body {
         }
     }
     #footer {
-        background-color: $white;
+        background-color: $grayblue;
         text-align: center;
         font-size: 10px;
         p {
             margin: 0px;
-            padding-bottom: 10px;
+            padding: 0px 5px;
         }
     }
     //mobile-specific stuff goes here

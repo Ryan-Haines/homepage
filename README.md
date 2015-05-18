@@ -1,31 +1,31 @@
 Hello Ryan, welcome to the github readme for your own website.
 
-Technologies involved in the building this website included:
+Technologies involved in the building this website includes:
 
 HTML
 CSS3 + Sass + Compass
 Gimp
 
 In case you've managed to get yourself in a pickle, here are some pointers
-Hosting service: roadrunner
-DNS redirect providers ryanhaines.org (under Dad's control - remember to transfer it someday) and ryanhain.es, under your control.
-
-
+Hosting provider: [whois]
 
 to push changes to website:
 $ git pushwebsite 
 
 this assumes the following:
 git-ftp is installed
-pushwebsite is aliased to 'ftp push --user haines --passwd ********* ftp://home.roadrunner.com/public_html/ryan'
+pushwebsite is aliased to 'ftp push --user haines --passwd * ftp://[stuffhere]'
 
-http://home.roadrunner.com/~haines/ryan/
-http://ryanhaines.org
+otherwise:
+git add -A
+git commit -m"message here"
+git push origin master
+
+then use ftp software to migrate changes to live website
+
 http://ryahain.es
-
-Credentials for the server http://home.roadrunner.com:
-username: haines
-password: short for roadrunner
+https://ryanhain.es
+https://ourbenefactors.com
 
 to clone repository:
 

@@ -1,53 +1,27 @@
-Ryan Haines
-Mission District, San Francisco CA
-https://ryanhain.es - hit "contact me" to reveal em@il address
-
-Education
-Northeastern University College of Computer and Information Science
-
-Work Experience
-
-WunWun - Ubermensch
+Profile
+Young graduate entering the world of software development with a passion for enabling connectedness and rich user experiences. Loves playing board games and following major trends in economic and technological sectors.
+Experience
+Übermensch, Wunwun; San Francisco, California — 2014-2015
 Expanding instant-delivery service to San Francisco area
-Performing extensive testing and debugging regarding application usage
-Executing numerous promotions to increase user awareness during launch period
+Performing application testing and debugging
+Executing numerous promotions during launch period
 
-Ryanhain.es - Independent Contractor
-Providing comprehensive penetration testing and security verification services
-Consulting with clients to evaluate potential UI/UX improvements
-
-Moovweb - Production Support Developer
-Uplifting websites by transforming the desktop experience to a mobile-friendly format
-Performing live-site maintenance for clients with existing deployments
+Production Support Developer, Moovweb; San Francisco, California — 2013-2014
+Transforming desktop experiences to a mobile-friendly format
+Performing live-site maintenance on existing deployments
 Implementing new functionalities from scratch
 
-Metaswitch - Software Development Intern
+Software Development Intern, Metaswitch; — 2013-2013
 Developing configuration tools for OpenFlow routers
-Raising intuition quotient for front-end interface
+Increasing visual simplicity of front-end interface
 Tightening synchronicity between backend and facade
 
-Verivo - Quality Assurance Intern
+Quality Assurance Intern, Verivo; — 2011-2011
 Executing test cases to ensure consistent cross-platform mobile application performance
 Writing test cases for new feature areas
 Demonstrating issues to developers to isolate and fix problems
-
-Volunteer Work
-Noisebridge Technical Cooperative
-Assisting in construction of public-access internet terminals by means of donated hardware
-Contributing to decisions regarding direction of the organization
-Providing free hot meals to hungry visitors
-
-Mineways 3D Printing
-Reordering content and implementing mobile optimizations
-Nourishing application success through social growth-hacking
-Advocating development of new printing materials for more diverse modeling options
-
-Interests and Activities
-
-Classical and improvisational cello
-Progressive rock and electronica
-The Economist
-Euro-style board games
-Eight circuit model of consciousness
-
+Education
+Northeastern University, Boston, Massachusetts — Computer Science, 2013
+Skills
+Java, Javascript, JQuery, AngularJS, HTML5, CSS, XML, SQL, Github, virtualization
 references furnished upon request

@@ -1,5 +1,6 @@
 User-agent: *
 
 Disallow: /Hosting/
+Disallow: /resume_current.pdf
 
 Allow: /
